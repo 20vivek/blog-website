@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivek's Persoal Blog</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="images/x-icon">
+  <!--CSS-->
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;
+600;700&family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300
+;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="light-theme">
+  
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#">
+          <img src="./assets/images/logo-light.svg" alt="devblog's Logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="devblog's Logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun" ></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sunny" ></ion-icon>
+          </button>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+            <p class="h3 nav-title">Main Menu</p>
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+            <p class="h3 nav-title">Topics</p>
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b> Vivek&nbsp; Sahu.</b>
+            <br>Web Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in <abbr title="Accessibility">ally</abbr>
+            and Core Web Vitals
+          </p>
+
+          <div class="btn-group">
+            <a href="" class="btn btn-primary"> Contact Me</a>
+            <a href="" class="btn btn-secondary"> About Me</a>
+          </div>
+        </div>
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img src="./assets/images/hero.png" alt="Vivek Sahu" class="hero-img">
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="main">
+      <div class="container">
+        <div class="blog">
+          <h2 class="h2">Latest Blog Post</h2>
+          <div class="blog-card-group">
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-1.png" alt="Building Microservices with Dropwizard,
+                 MongoDB & Docker" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Database</button>
+                <h3>
+                  <a href="" class="h3">
+                    Building Microservices with Dropwizard, MongoDB & Docker
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  This NoSQL database oriented to document ( by documents like JSON)
+                  combine some of the features from
+                  relational
+                  databases, easy to use and the multi-plateform is the best option for
+                  scale up and have fault
+                  tolerance, load balancing,
+                  map reduce, etc...
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2022-10-12">Oct 12, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M"> 3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-2.png" alt="Fast Web page loading on a 20$
+                feature phone" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Web Performance</button>
+                <h3>
+                  <a href="" class="h3">
+                    Fast Web page loading on a 20$ feature phone
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Feature phones are affordable (under $20-25), low end devices enabling
+                  100s of millions of users in 
+                  developing contries
+                  to leverage the web , Think of them as a light version of a smart phone...
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2023-1-12">jan 12, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M"> 4 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-3.png" alt="Accessibility Tips for Web Developers" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Accessibility</button>
+                <h3>
+                  <a href="" class="h3">
+                    Accessibility Tips for Web Developers
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  It's awesome to build sites that are inclusive and accessible to
+                  everyone. These are at least six keys
+                  areas of disability we can optimize for: visual, hearing, mobility, cognition,
+                  speech of neural. Many Tools and resources can 
+                  help here, even if you are totally new to web Accessibility... 
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2023-3-12">Mar 12, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M"> 2 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-4.png" alt="Dynamically Securing Database using hashicorp 
+                vault" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Database</button>
+                <h3>
+                  <a href="" class="h3">
+                    Dynamically Securing Database using hashicorp vault
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Nowadays, it's hard to profoundly secure databases due 
+                  to the increasing complexity of systems and threats.
+                 HashiCorp Vault provides a dynamic approach to 
+                 database security by generating short-lived
+                  credentials, encrypting sensitive data, 
+                  and managing access policies. This ensures that
+                   your database remains secure while minimizing the
+                    risk of unauthorized access.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2023-10-12">Oct 12, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M"> 3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-5.png" alt="Adaptive Loading - Improving
+                Web Performance on low end devices" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Web Performance</button>
+                <h3>
+                  <a href="" class="h3">
+                    Adaptive Loading - Improving
+                Web Performance on low end devices
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Adaptive Loading: Do not just respond based on screen size, 
+                  but also consider device performance,
+                   internet speed, and user needs. Modern websites should load 
+                   resources intelligently to improve speed and user experience. 
+                   For example, low-resolution images can be served on slow networks, 
+                   while heavy animations and unnecessary scripts can be avoided on 
+                   weaker devices. This approach reduces loading time, saves bandwidth, 
+                   and ensures smoother performance across mobiles, tablets, and desktops,
+                   making websites more efficient and accessible for all users.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2024-8-02">Aug 02, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT6M"> 6 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-6.png" alt="Don't Develop just for yourself - A Developer's Checklist to
+                Accessibility" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Accessibility</button>
+                <h3>
+                  <a href="" class="h3">
+                    Don't Develop just for yourself - A Developer's Checklist to
+                    Accessibility
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  We, as Developers, tend to develop sites unconsciously 
+                  by focusing mainly on design and functionality while ignoring 
+                  performance and user experience across different devices.
+                  Many websites work well on powerful systems but struggle on
+                  slower phones or weak internet connections. 
+                  Developers should think beyond appearance and consider
+                  optimization techniques such as adaptive loading, lazy loading,
+                  and efficient coding practices. Building with performance in mind helps 
+                  create faster, more accessible, and user-friendly 
+                  websites that provide a smooth experience for everyone.  
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2024-10-12">Oct 12, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M"> 4 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-7.png" alt="Building a Restful CRUD API with Node JS,
+                 Express, and MongoDB" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Database</button>
+                <h3>
+                  <a href="" class="h3">
+                   Building a Restful CRUD API with Node JS, Express, and MongoDB
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Building a RESTful CRUD API with Node.js, 
+                  Express, and MongoDB is an efficient way to 
+                  create scalable backend applications. Node.js 
+                  handles server-side operations, 
+                  Express simplifies routing and middleware 
+                  management, while MongoDB stores data flexibly. 
+                  CRUD operations—Create, Read, Update, 
+                  and Delete—allow seamless database interaction, 
+                  making the API suitable for modern web and mobile 
+                  applications.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2025-10-12">Oct 12, 2025</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M"> 2 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-8.png" alt="Monitoring Performance with the
+                PageSpeed insights API " width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Web Performance</button>
+                <h3>
+                  <a href="" class="h3">
+                    Monitoring Performance with the
+                    PageSpeed insights API
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Monitoring Performance with the PageSpeed Insights 
+                  API helps developers analyze website speed, accessibility, 
+                  SEO, and overall user experience. 
+                  The API provides detailed performance reports 
+                  and optimization suggestions for both mobile and 
+                  desktop devices. By regularly tracking metrics such as 
+                  loading speed and Core Web Vitals, developers can identify 
+                  issues early and improve website efficiency, responsiveness, 
+                  and search engine ranking for a better user experience.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2025-11-12">Nov 12, 2025</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M"> 3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-9.png" alt="The Best Web Accessibility Tools for
+                Developers in 2025" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">accessibility</button>
+                <h3>
+                  <a href="" class="h3">
+                    The Best Web Accessibility Tools for
+                    Developers in 2025
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  The best web accessibility tools for developers 
+                  in 2025 help create inclusive and user-friendly 
+                  websites for everyone. These tools identify issues 
+                  related to color contrast, keyboard navigation, 
+                  screen reader compatibility, and semantic 
+                  HTML structure. Popular accessibility testing tools 
+                  improve compliance with accessibility standards 
+                  while enhancing usability. 
+                  By integrating these tools into development workflows, 
+                  developers can build websites that are more accessible, 
+                  responsive, and welcoming to users with 
+                  different abilities and needs.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2025-12-12">dec 12, 2025</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M"> 5 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-10.png" alt="How to connect a react frontend with a NodeJS/
+                Express backend" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Database</button>
+                <h3>
+                  <a href="" class="h3">
+                    How to connect a react frontend with a NodeJS/
+                    Express backend
+                  </a>
+                </h3>
+                
+                <p class="blog-text">
+                  Connecting a React frontend with a Node.js 
+                  and Express backend allows seamless 
+                  communication between the user interface and 
+                  server-side functionality. React handles the 
+                  frontend design and user interactions, 
+                  while Express manages APIs, routing, and 
+                  database operations. Developers typically use 
+                  HTTP requests with tools like Fetch API or 
+                  Axios to exchange data between both sides. 
+                  This architecture improves scalability, 
+                  separates concerns, and enables efficient 
+                  development of modern full-stack web 
+                  applications.
+                </p>
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Vivek Sahu" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4"> Vivek Sahu</a>
+                    <p class="text-sm">
+                      <time datetime="2026-02-23">Feb 23, 2026</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M"> 3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn load-more">Load More</button>
+        </div>
+
+
+
+        <div class="aside">
+          <div class="topics">
+            <h2 class="h2">Topics</h2>
+            
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+
+            </a>
+            
+          </div>
+
+          <div class="tags">
+            <h2 class="h2">Tags</h2>
+            <div class="wrapper">
+              <button class="hashtag">#mongodb</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#a11y</button>
+              <button class="hashtag">#mobility</button>
+              <button class="hashtag">#inclusion</button>
+              <button class="hashtag">#webperf</button>
+              <button class="hashtag">#optimize</button>
+              <button class="hashtag">#performance</button>
+              
+            </div>
+          </div>
+
+          <div class="contacts">
+            <h2 class="h2">Let's Talk</h2>
+            <div class="wrapper">
+              <p>Do you want to learn more about me how can i help your company overcome
+                problems? Lets us have a 
+                conversation.
+              </p>
+
+              <ul class="social-link">
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-box instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="newsletter">
+            <h2 class="h2"></h2>
+            <div class="wrapper">
+              <p>
+                Subscribe to our newsletter to be among the first
+                to keep up with the 
+                latest update.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main> 
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="wrapper">
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo-light.svg" alt="Blog's Logo" 
+          width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="Blog's Logo" 
+          width="150" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about web accessibility, Web Performance, and Database management.
+        </p>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Quick Links</p>
+          <ul>
+            <li>
+              <a href="" class="footer-link">Advertise With Us</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">About Us</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Contact Us</a>
+            </li>
+            
+          </ul>
+    
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Legal Stuff</p>
+          <ul>
+            <li>
+              <a href="" class="footer-link">Privacy Notice</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Cookie Policy</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Term Of Use</a>
+            </li>
+            
+          </ul>
+    
+      </div>
+    </div>
+    
+    <p class="copyright">
+      &copy; copyright 2025 <a href="#">DevBlog</a>
+    </p>
+  </footer>
+
+
+  <script src="./assets/JavaScripts/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
